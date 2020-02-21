@@ -23,10 +23,6 @@ void TestNetworking() {
 
 vector<Vector3> testNodes;
 
-void TestPathfinding() {
-
-}
-
 void DisplayPathfinding() {
 
 }
@@ -46,7 +42,7 @@ hide or show the
 
 */
 int main() {
-	Window*w = Window::CreateGameWindow("CSC8503 Game technology!", 1280, 720);
+	Window*w = Window::CreateGameWindow("CSC8507 Team Project!", 1280, 720);
 
 	if (!w->HasInitialised()) {
 		return -1;
